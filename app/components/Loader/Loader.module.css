@@ -1,0 +1,24 @@
+.container{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.progress_bar{
+    height: 10px;
+    width: 100%;
+    background: black;
+    position: relative;
+    transform: scaleX(0);
+    transform-origin: left ;
+}
+
+.progress_number{
+    position: absolute;
+    left: 50%;
+    top: 55%;
+    transform: translateX(-50%);
+    font-size: 4rem;
+}
