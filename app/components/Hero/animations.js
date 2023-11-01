@@ -12,7 +12,7 @@ export const pageAnimations = (pageRef) =>{
         y: 120,
         duration: 2.5,
         stagger:0.05,
-        ease: "expo.inOut",
+        ease: "expo.Out",
     })
 
     return tl;
