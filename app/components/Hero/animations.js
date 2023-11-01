@@ -10,7 +10,7 @@ export const pageAnimations = (pageRef) =>{
         ease: "expo.inOut",
     }).from('[data-title-item]',{
         y: 120,
-        duration: 2.5,
+        duration: 1.5,
         stagger:0.05,
         ease: "sine.inOut",
     })
