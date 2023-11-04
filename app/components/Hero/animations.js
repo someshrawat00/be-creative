@@ -9,11 +9,11 @@ export const pageAnimations = (pageRef) =>{
         duration: 2.5,
         ease: "expo.inOut",
     }).from('[data-title-item]',{
-        y: 120,
-        duration: 1,
-        stagger:0.05,
-        ease: "sine.inOut",
-    })
+        y: 150,
+        duration: 2,
+        stagger:0.02,
+        ease: "expo.inOut",
+    },"<50%")
 
     return tl;
 }

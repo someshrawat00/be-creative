@@ -4,21 +4,28 @@
     position: relative;
     display: flex;
     align-items: center;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: white;
 }
 
 .progress_bar{
-    height: 10px;
+    height: 100vh;
     width: 100%;
     background: black;
     position: relative;
     transform: scaleX(0);
     transform-origin: left ;
+    color: rgb(255, 255, 255);
 }
 
 .progress_number{
     position: absolute;
     left: 50%;
-    top: 55%;
-    transform: translateX(-50%);
-    font-size: 4rem;
+    top: 50%;
+    transform: translate(-70%,-50%);
+    font-size: 8rem;
+    color: white;
+    mix-blend-mode: difference;
 }

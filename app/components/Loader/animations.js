@@ -11,12 +11,7 @@ export const progresBaranimation= (progressBarRef,progressNumberRef) =>{
         textContent: "100",
         duration: 5,
         roundProps: "textContent"
-    },"<").to(progressBarRef.current,{
-        transformOrigin: "center center",
-        scaleY: 100,
-        duration: 2.5,
-        ease: "expo.inOut",
-    })
+    },"<")
 
     return tl;
 }
