@@ -34,3 +34,7 @@
     font-size: 8rem;
     display: flex;
 }
+
+.title_space{
+    margin-right: 30px;
+}
