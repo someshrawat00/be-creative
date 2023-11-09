@@ -31,7 +31,7 @@ const Hero = () => {
                     <span  className={styles.title}>
                         <span data-title-item>B</span>
                         <span data-title-item>E</span>
-                        <span data-title-item>&nbsp</span>
+                        <span data-title-item> </span>
                         <span data-title-item>C</span>
                         <span data-title-item>R</span>
                         <span data-title-item>E</span>
